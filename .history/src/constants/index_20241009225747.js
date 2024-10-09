@@ -4,7 +4,6 @@ import {
     apple,
     contact,
     css,
-    solana,
     gsap,
     opencv,
     python,
@@ -124,27 +123,22 @@ export const skills = [
     {
         imageUrl: threejs,
         name: "Threejs",
-        type: "Frontend[3D Components]",
+        type: "Frontend",
     },
     {
         imageUrl: tensorflow,
         name: "tensorflow",
-        type: "Machine Learning",
+        type: "Frontend",
     },
     {
         imageUrl: python,
         name: "python",
-        type: "Machine Learning",
+        type: "Frontend",
     },
     {
         imageUrl: opencv,
         name: "opencv",
-        type: "Real time detection",
-    },
-    {
-        imageUrl: solana,
-        name: "solana",
-        type: "Blockchain",
+        type: "Frontend",
     }
 ];
 
@@ -184,24 +178,31 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: apple,
-        theme: 'btn-back-black',
-        name: 'Apple Website',
-        description: 'Created a full-stack replica of the popular product based platform of "Apple"',
-        link: 'https://iphonesrinjoysen.vercel.app/',
+        iconUrl: threads,
+        theme: 'btn-back-green',
+        name: 'Full Stack Threads Clone',
+        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+        link: 'https://github.com/adrianhajdin/threads',
     },
     {
-        iconUrl: solana,
+        iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Defi-Token Swapper',
-        description: 'Built a Decentralized Financial Crypto Token Swapper using WalletConnect',
-        link: 'https://defi-token-swapping-app.vercel.app/',
+        name: 'Full Stack Instagram Clone',
+        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+        link: 'https://github.com/adrianhajdin/social_media_app',
+    },
+    {
+        iconUrl: estate,
+        theme: 'btn-back-black',
+        name: 'Real-Estate Application',
+        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
+        link: 'https://github.com/adrianhajdin/projects_realestate',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
         name: 'AI Summarizer Application',
         description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://project-ai-summarizer-red.vercel.app/',
+        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
 ];

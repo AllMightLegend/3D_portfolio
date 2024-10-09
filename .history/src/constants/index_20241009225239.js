@@ -1,10 +1,8 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
     car,
-    apple,
     contact,
     css,
-    solana,
     gsap,
     opencv,
     python,
@@ -124,27 +122,22 @@ export const skills = [
     {
         imageUrl: threejs,
         name: "Threejs",
-        type: "Frontend[3D Components]",
+        type: "Frontend",
     },
     {
         imageUrl: tensorflow,
         name: "tensorflow",
-        type: "Machine Learning",
+        type: "Frontend",
     },
     {
         imageUrl: python,
         name: "python",
-        type: "Machine Learning",
+        type: "Frontend",
     },
     {
         imageUrl: opencv,
         name: "opencv",
-        type: "Real time detection",
-    },
-    {
-        imageUrl: solana,
-        name: "solana",
-        type: "Blockchain",
+        type: "Frontend",
     }
 ];
 
@@ -160,6 +153,19 @@ export const experiences = [
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing optimal and calibrated designs.",
             "Participating in competitions and providing constructive feedback to other engineers.",
+        ],
+    },
+    {
+        title: "React Native Developer",
+        company_name: "Tesla",
+        icon: tesla,
+        iconBg: "#fbc3bc",
+        date: "Jan 2021 - Feb 2022",
+        points: [
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
 ];
@@ -184,24 +190,45 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: apple,
-        theme: 'btn-back-black',
-        name: 'Apple Website',
-        description: 'Created a full-stack replica of the popular product based platform of "Apple"',
-        link: 'https://iphonesrinjoysen.vercel.app/',
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'Amazon Price Tracker',
+        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
+        link: 'https://github.com/adrianhajdin/pricewise',
     },
     {
-        iconUrl: solana,
+        iconUrl: threads,
+        theme: 'btn-back-green',
+        name: 'Full Stack Threads Clone',
+        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+        link: 'https://github.com/adrianhajdin/threads',
+    },
+    {
+        iconUrl: car,
+        theme: 'btn-back-blue',
+        name: 'Car Finding App',
+        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
+        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+    },
+    {
+        iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Defi-Token Swapper',
-        description: 'Built a Decentralized Financial Crypto Token Swapper using WalletConnect',
-        link: 'https://defi-token-swapping-app.vercel.app/',
+        name: 'Full Stack Instagram Clone',
+        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+        link: 'https://github.com/adrianhajdin/social_media_app',
+    },
+    {
+        iconUrl: estate,
+        theme: 'btn-back-black',
+        name: 'Real-Estate Application',
+        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
+        link: 'https://github.com/adrianhajdin/projects_realestate',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
         name: 'AI Summarizer Application',
         description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://project-ai-summarizer-red.vercel.app/',
+        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
 ];

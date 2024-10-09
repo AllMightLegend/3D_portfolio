@@ -191,17 +191,17 @@ export const projects = [
         link: 'https://iphonesrinjoysen.vercel.app/',
     },
     {
-        iconUrl: solana,
+        iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Defi-Token Swapper',
-        description: 'Built a Decentralized Financial Crypto Token Swapper using WalletConnect',
-        link: 'https://defi-token-swapping-app.vercel.app/',
+        name: 'Full Stack Instagram Clone',
+        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+        link: 'https://github.com/adrianhajdin/social_media_app',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
         name: 'AI Summarizer Application',
         description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://project-ai-summarizer-red.vercel.app/',
+        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
 ];

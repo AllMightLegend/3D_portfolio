@@ -1,7 +1,5 @@
 import css from './css.svg'
-import apple from './apple.svg'
 import docker from './docker.svg'
-import solana from './solana.svg'
 import gsap from './gsap.svg'
 import python from './python.svg'
 import opencv from './opencv.svg'
@@ -40,8 +38,6 @@ export {
     css,
     docker,
     express,
-    apple,
-    solana,
     gx,
     gsap,
     python,
