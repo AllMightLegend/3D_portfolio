@@ -52,7 +52,7 @@ const About = () => {
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I am open to work with all sorts of companies to level up my skills and
+            I am open to work with various companies to level up my skills and
             teaming up with smart people. 
           </p>
         </div>
