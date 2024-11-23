@@ -22,7 +22,7 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineering Student based in Kolkata, specializing in technical
+          Software Engineering Student based in India, specializing in technical
           education through hands-on learning and building applications.
           Currently a student in Techno Main Salt Lake, pursuing B.Tech in Computer
           Science and Engineering(Artificial Intelligence and Machine Learning)
